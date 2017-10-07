@@ -2,7 +2,7 @@
 Aplicação Firebase com login usando Facebook.
 <br><br>
 Utilizei SDK Firebase, Jquery e Bootstrap 4 para criar um script de login com o facebook. <br>
-Para rodar esta aplicação lembro que você precisa de um servidor. Ex: Apache, Xampp, Etc.<br>
+Para rodar esta aplicação lembro que você precisa de um servidor. Ex: Apache, Xampp, Etc.
 <br><br>
 Você precisa criar sua aplicação no Firebase para setar as informações de config no initializeApp.
 <br><br>
