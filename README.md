@@ -8,12 +8,12 @@ Você precisa criar sua aplicação no Firebase para setar as informações de c
 <br><br>
 
 var config = {<br>
-    apiKey: "AIzaSyCd7zlYr-T8F04fhH1kdKkbPlbNefsTal0",<br>
-    authDomain: "peguei-ja.firebaseapp.com",<br>
-    databaseURL: "https://peguei-ja.firebaseio.com",<br>
-    projectId: "peguei-ja",<br>
-    storageBucket: "peguei-ja.appspot.com",<br>
-    messagingSenderId: "226205603020"<br>
+%20%20%20    apiKey: "AIzaSyCd7zlYr-T8F04fhH1kdKkbPlbNefsTal0",<br>
+%20%20%20    authDomain: "peguei-ja.firebaseapp.com",<br>
+%20%20%20    databaseURL: "https://peguei-ja.firebaseio.com",<br>
+%20%20%20    projectId: "peguei-ja",<br>
+%20%20%20    storageBucket: "peguei-ja.appspot.com",<br>
+%20%20%20    messagingSenderId: "226205603020"<br>
 };<br>
 firebase.initializeApp(config);<br><br>
 
