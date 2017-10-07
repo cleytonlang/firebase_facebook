@@ -6,8 +6,8 @@ Para rodar esta aplicação lembro que você precisa de um servidor. Ex: Apache,
 
 Você precisa criar sua aplicação no Firebase para setar as informações de config no initializeApp.
 
-var config = {
-    apiKey: "AIzaSyCd7zlYr-T8F04fhH1kdKkbPlbNefsTal0",
+var config = {<br>
+    apiKey: "AIzaSyCd7zlYr-T8F04fhH1kdKkbPlbNefsTal0",<br>
     authDomain: "peguei-ja.firebaseapp.com",
     databaseURL: "https://peguei-ja.firebaseio.com",
     projectId: "peguei-ja",
