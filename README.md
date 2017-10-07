@@ -17,7 +17,9 @@ var config = {<br>
 };<br>
 firebase.initializeApp(config);<br><br>
 
-Altere os parâmentros do json config.
+Altere os parâmentros do json config de acordo com sua conta no firebase.
+Esta autenticação também cria o usuário do facebook no seu banco firebase.
+
 <br><br>
 
 Aproveite para explorar esta ferramenta excelente do Google.
