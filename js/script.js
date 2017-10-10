@@ -1,15 +1,16 @@
     $(function() {
         $('#mensagemderetorno').hide();
+        var config = {
+            apiKey: "AIzaSyCd7zlYr-T8F04fhH1kdKkbPlbNefsTal0",
+            authDomain: "peguei-ja.firebaseapp.com",
+            databaseURL: "https://peguei-ja.firebaseio.com",
+            projectId: "peguei-ja",
+            storageBucket: "peguei-ja.appspot.com",
+            messagingSenderId: "226205603020"
+        };
+        firebase.initializeApp(config);
+
         $('#logar').click(function() {
-            var config = {
-                apiKey: "AIzaSyCd7zlYr-T8F04fhH1kdKkbPlbNefsTal0",
-                authDomain: "peguei-ja.firebaseapp.com",
-                databaseURL: "https://peguei-ja.firebaseio.com",
-                projectId: "peguei-ja",
-                storageBucket: "peguei-ja.appspot.com",
-                messagingSenderId: "226205603020"
-            };
-            firebase.initializeApp(config);
 
             var provider = new firebase.auth.FacebookAuthProvider();
             provider.addScope('user_birthday');
